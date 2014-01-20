@@ -1,0 +1,32 @@
+h1 {
+	color: #305797;	
+}
+body {
+	background: #FFFEF0;
+	}
+div.buttons{
+	background-color: #E84C4C;
+	border-style: solid;
+	border-color: #8F2C2C;
+	display: inline;
+	border-radius: 2em;
+	margin: 1em;
+	padding: 1em;
+	width: 150px;
+	font-size: 1em;
+	font-family: sans-serif;
+}
+a.div.buttons{
+	text-decoration: none;
+}
+div.blogpost {
+	border:solid;
+	margin: 1.5em;
+	padding: 1em;
+}
+h2 {
+	font-family: sans-serif;
+}
+p {
+	display: inline;
+}
