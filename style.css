@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
 	color: #305797;	
 }
 body {
@@ -9,14 +9,13 @@ div.buttons{
 	border-style: solid;
 	border-color: #8F2C2C;
 	display: inline;
-	border-radius: 2em;
 	margin: 1em;
 	padding: 1em;
 	width: 150px;
 	font-size: 1em;
 	font-family: sans-serif;
 }
-a.div.buttons{
+a.buttons{
 	text-decoration: none;
 }
 div.blogpost {
@@ -29,4 +28,8 @@ h2 {
 }
 p {
 	display: inline;
+}
+*/
+*{
+	border: 1px solid black;
 }
