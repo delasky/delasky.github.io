@@ -1,3 +1,170 @@
 *{
-	border: 1px solid black;
+/*	border: 1px solid black;
+*/	margin: 0;
+	padding: 0;
 }
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font-family: "Courier New", courier, monospace;
+  font-size: small;
+  text-align: center;
+}
+
+h1 { margin-bottom: 1em; }
+
+p { margin: 1em 0; }
+
+a {
+	text-decoration: none;
+	color: #00a;
+}
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+/*************************************************
+/* Home
+/*
+/**********************************************/
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+}
+
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  margin: 3em 3em 2em 3em;
+  line-height: 1.5em;
+}
+
+
+/*****************************************************************************/
+/*
+/* Header
+/*
+/*****************************************************************************/
+
+.header {
+	width: 100%;
+}
+ .header a {
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.title {
+  display: block;
+}
+
+.title a {
+  color: #a00;
+}
+
+.title a:hover {
+  color: #000;
+}
+
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.header a.extra:hover {
+  color: #000;
+}
+
+.meta {
+  color: #aaa;
+}
+
+  /* Header Clearfix */
+ .header:after { 
+  visibility: hidden;
+  content:"";
+  display: block;
+  height: 0;
+  clear: both;
+  }
+/*****************************************************************************/
+/*
+/* Nav
+/*
+/*****************************************************************************/
+.nav {
+	float: right;
+	width: 30%;
+}
+/*****************************************************************************/
+/*
+/* Content
+/*
+/*****************************************************************************/
+.home {
+	float: left;
+	width: 65%;
+}
+
+.image {
+	position: relative;
+	width: 100%;
+}
+
+.home h2 {
+	position: absolute;
+	color: white;
+	padding: 25px;
+	top: 350px;
+}
+/*****************************************************************************/
+/*
+/* Footer
+/*
+/*****************************************************************************/
+
+.footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  text-align: center;
+  overflow: hidden;
+  clear: both;
+  width: 100%;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+.post {
+	float: left;
+	width: 65%;
+	padding-top: 2%;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
