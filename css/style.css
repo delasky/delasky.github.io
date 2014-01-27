@@ -130,11 +130,12 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 .content{
   float: left;
+  width: 65%;
+
 }
 
 .home {
 	float: left;
-	width: 65%;
   position: relative;
 }
 
