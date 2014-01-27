@@ -42,6 +42,16 @@ a:visited { color: #a0a; }
   font-size: 80%;
 }
 
+.post {
+  float: left;
+  width: 65%;
+  padding-top: 2%;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -118,13 +128,18 @@ a:visited { color: #a0a; }
 /* Content
 /*
 /*****************************************************************************/
+.content{
+  float: left;
+}
+
 .home {
 	float: left;
 	width: 65%;
+  position: relative;
 }
 
 .image {
-	position: relative;
+	/*position: relative;*/
 	width: 100%;
 }
 
@@ -132,7 +147,9 @@ a:visited { color: #a0a; }
 	position: absolute;
 	color: white;
 	padding: 25px;
-	top: 350px;
+	bottom: 10px;
+  width: 100%;
+  text-align: left      !important;
 }
 /*****************************************************************************/
 /*
@@ -157,13 +174,4 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
-.post {
-	float: left;
-	width: 65%;
-	padding-top: 2%;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
 
