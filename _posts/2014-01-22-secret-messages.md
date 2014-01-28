@@ -8,15 +8,15 @@ Secret messages are a great way to convey secret information to your friends, fa
 
 There are a lot of super sweet ways to pass secret messages.
 
-##### Invisible Ink!
+**Invisible Ink!**
 
 Make sure you practice your penmanship
 
-##### Codes!
+**Codes!**
 
 Bone up on your math!
 
-##### Microfilm!
+**Microfilm!**
 
 You may have seen this in a library or museum and it is super awesome!
 
