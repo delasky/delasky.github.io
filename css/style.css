@@ -60,9 +60,10 @@ a:visited {color: red;}
 
 .site {
   font-size: 115%;
-  text-align: justify;
-  margin: 3em 3em 2em 3em;
+/*  text-align: justify;
+*/  margin: 3em 3em 2em 3em;
   line-height: 1.5em;
+  width: 60em;
 }
 
 
@@ -121,8 +122,9 @@ a:visited {color: red;}
 /*****************************************************************************/
 .content{
   float: left;
-  width: 65%;
+  width: 45em;
   display: inline;
+  text-align: justify;
 }
 
 .home {
@@ -152,10 +154,11 @@ a:visited {color: red;}
 /*****************************************************************************/
 .nav {
   float: left;
-  width: 30%;
+  width: 10em;
   color: black;
   padding: 1%;
   display: inline;
+  text-align: right;
 }
 /*.posts a {
   text-decoration: none;
