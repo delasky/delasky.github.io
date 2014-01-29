@@ -1,161 +1,139 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
+/***********
+global
+/***********/
 * {
-  margin: 0;
-  padding: 0;
-  border:1px solid black;
+	/*border: 1px solid black;*/
+	margin: 0;
+	padding: 0;
 }
 
-html, body { height: 100%; }
-
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+a {
+	text-decoration: none;
+	color: blue;
 }
+a:link {color: blue;}
+a:hover {color: red;}
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-.posts li {
-  line-height: 1.75em;
-}
-
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
+/************
+BACKGROUND, contains all that follows
+************/
 .site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+	max-width: 265px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.header a {
-  font-weight: bold;
-  text-decoration: none;
+/*************
+HEADER
+.header is wrapper
+.title is SITE title
+.pagename is page title
+**************/
+.header {
+	text-align: center;
 }
 
 .title {
-  display: inline-block;
-  margin-bottom: 2em;
+	font-family: "Courier New", courier, monospace;
+	margin-bottom: .5em;
 }
 
-.title a {
-  color: #a00;
+.pagename {font-family: "Alegreya Sans 100", sans-serif;
+			font-weight: 100;
+		}
+
+/**************
+MAIN content
+.content is wrapper
+.home is index page, 
+.post is posts
+/**************/
+
+.content {
+	float: left;
 }
 
-.title a:hover {
-  color: #000;
+.home {
+	width: 100%;
+	max-width: 265px;
+	position: relative;
 }
 
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
+.home h2 {
+	position: absolute;
+	bottom: 02%;
+	color: white;
+	padding-left: 3%;
+	font-family: "Alegreya Sans 100", sans-serif;
+	font-weight: 100;
+}
+.post {
+	width: 100%;
+	border-top: 1px solid gray;
+	margin-top: 7%;
+	padding: 3%;
+	text-align: justify;
+	font-family: "Courier New", courier monospace;
 }
 
-.header a.extra:hover {
-  color: #000;
+.post h1,h2,h3,h4,h5 {
+	text-align: center;
+	padding-bottom: 3%;
 }
 
-.meta {
-  color: #aaa;
+.post p {
+	padding: 1% 1%;
 }
 
+.post ul {
+	text-indent: 2%;
+	list-style-position: inside;
+}
+/*********
+Nav block
+.nav is wrapper
+.pages is list of pages
+***********/
+.nav {
+	border-top: 1px solid gray;
+	float: left;
+	width: 100%;
+	margin-bottom: 5%;
+	padding: 2% 2%;
+	font-family: "Alegreya Sans 100", sans-serif;
+	font-weight: 100;
+}
+
+.pages {
+	padding-top: 5%;
+	text-align: center;
+	list-style-type: none;
+}
+
+/***********
+FOOTER
+.footer is the wrap
+************/
 .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	font-family: "Alegreya Sans 100", sans-serif;
+	font-weight: 100;
+	border-top: 1px solid gray;
+	margin-top: 5%;
 }
 
-.footer .contact {
-  float: left;
-  margin-right: 3em;
-}
 
-.footer .contact a {
-  color: #8085C1;
-}
 
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
 
-.footer .rss img {
-  border: 0;
-}
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
 
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
 
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
 
-.post pre code {
-  border: none;
-}
 
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
 
-.post pre.terminal code {
-  background-color: #333;
-}
+
+
