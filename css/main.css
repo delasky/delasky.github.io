@@ -124,9 +124,33 @@ FOOTER
 	border-top: 1px solid gray;
 	margin-top: 5%;
 }
+/***********
+MEDIA QUERIES
+*************/
 
+@media (min-width: 700px) {
 
+.site {
+	max-width: 850px;
+}
 
+.nav {
+	border-top: none;
+	display: inline;
+	width: 30%;
+}
+
+.content {
+	display: inline;
+	width: 60%;
+
+}
+.home {
+	border: 1px solid black;
+	display: inline;
+}
+
+}
 
 
 
