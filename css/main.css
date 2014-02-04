@@ -2,8 +2,8 @@
 global
 /***********/
 * {
-	/*border: 1px solid black;*/
-	margin: 0;
+/*	border: 1px solid black;
+*/	margin: 0;
 	padding: 0;
 }
 
@@ -18,10 +18,11 @@ a:hover {color: red;}
 BACKGROUND, contains all that follows
 ************/
 .site {
-	max-width: 265px;
-	width: 100%;
+/*	max-width: 265px;
+*/	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	height: 100%;
 }
 
 /*************
@@ -35,42 +36,35 @@ HEADER
 }
 
 .title {
-	font-family: "Courier New", courier, monospace;
+	font-family: "Nobile", sans-serif;
 	margin-bottom: .5em;
 }
 
-.pagename {font-family: "Alegreya Sans 100", sans-serif;
-			font-weight: 100;
+.pagename {	
+	font-family: "Nobile", sans-serif;
 		}
 
 /**************
 MAIN content
 .content is wrapper
-.home is index page, 
 .post is posts
 /**************/
 
 .content {
-	float: left;
+	width: 100%;
 }
 
-.home {
-	width: 100%;
-	max-width: 265px;
+.homepage {
+	width: 90%;
+	height: 90%;
 	position: relative;
 }
-
-.home h2 {
-	position: absolute;
-	bottom: 02%;
-	color: white;
-	padding-left: 3%;
-	font-family: "Alegreya Sans 100", sans-serif;
-	font-weight: 100;
+.homepage img{
+	width: 100%;
 }
+
 .post {
 	width: 100%;
-	border-top: 1px solid gray;
 	margin-top: 7%;
 	padding: 3%;
 	text-align: justify;
@@ -90,27 +84,34 @@ MAIN content
 	text-indent: 2%;
 	list-style-position: inside;
 }
+
 /*********
 Nav block
 .nav is wrapper
 .pages is list of pages
 ***********/
 .nav {
-	border-top: 1px solid gray;
-	float: left;
 	width: 100%;
 	margin-bottom: 5%;
 	padding: 2% 2%;
-	font-family: "Alegreya Sans 100", sans-serif;
+	font-family: "Nobile", sans-serif;
 	font-weight: 100;
+	margin: auto;
 }
 
 .pages {
+	width: 50%;
 	padding-top: 5%;
 	text-align: center;
 	list-style-type: none;
+	border: 1px solid black;
 }
 
+.pages li {
+	border-width: 100px;
+	border-image: url(/images/danielolasky_head.jpg) 40% 35% 55% 15% repeat;
+	margin: 4%;
+}
 /***********
 FOOTER
 .footer is the wrap
@@ -119,7 +120,7 @@ FOOTER
 	clear: both;
 	width: 100%;
 	text-align: center;
-	font-family: "Alegreya Sans 100", sans-serif;
+	font-family: "Nobile", sans-serif;
 	font-weight: 100;
 	border-top: 1px solid gray;
 	margin-top: 5%;
@@ -130,25 +131,42 @@ MEDIA QUERIES
 
 @media (min-width: 700px) {
 
+* {
+	margin: 1%;
+}
 .site {
 	max-width: 850px;
+}
+
+.header{
+	max-width: 650px;
 }
 
 .nav {
 	border-top: none;
 	display: inline;
 	width: 30%;
+	float: left;
 }
 
 .content {
+	float: left;
 	display: inline;
 	width: 60%;
+}
 
+.pagename {
+text-align: center
 }
-.home {
-	border: 1px solid black;
-	display: inline;
+
+.post {
+	width: 60%;
+	border-width: 75px 75px 75px 75px;
+	border-image: url(/images/danielolasky_head.jpg) 25% 50% 50% 25% stretch;
 }
+
+.post h1,h2,h3,h4,h5 {
+	text-align: left;
 
 }
 
