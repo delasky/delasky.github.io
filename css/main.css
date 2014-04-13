@@ -58,9 +58,7 @@ MAIN content
 	width: 90%;
 	height: 90%;
 	position: relative;
-}
-.homepage img{
-	width: 100%;
+	text-align: center;
 }
 
 .post {
@@ -100,17 +98,17 @@ Nav block
 }
 
 .pages {
-	width: 50%;
+	width: 75%;
 	padding-top: 5%;
 	text-align: center;
 	list-style-type: none;
-	border: 1px solid black;
-}
+/*	border: 1px solid black;
+*/}
 
 .pages li {
 	border-width: 100px;
-	border-image: url(/images/danielolasky_head.jpg) 40% 35% 55% 15% repeat;
-	margin: 4%;
+/*	border-image: url(/images/danielolasky_head.jpg) 25% 50% 50% 25% stretch;
+*/	margin: 4%;
 }
 /***********
 FOOTER
@@ -135,7 +133,7 @@ MEDIA QUERIES
 	margin: 1%;
 }
 .site {
-	max-width: 850px;
+	max-width: 1200px;
 }
 
 .header{

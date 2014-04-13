@@ -6,7 +6,7 @@ title: contact your pal!
 ###These are all the ways to contact me, daniel
 ####Your buddy
 
-**Email** a good way to contact me, i check it prett often. this is deffo the best way for longer stuff you want written down. daniel dot olasky at gmail dot com
+**Email** a good way to contact me, i check it pretty often. this is deffo the best way for longer stuff you want written down. daniel dot olasky at gmail dot com
 
 **Phone** please only call me if you know me
 
