@@ -80,6 +80,10 @@ a:visited { color: #a0a; }
   margin: 5px;
 }
 
+.previous-wrapper {
+  text-align: center
+}
+
 /*****************************************************************************/
 /*
 /* Site

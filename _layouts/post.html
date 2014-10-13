@@ -7,3 +7,9 @@ layout: default
 <div class="post">
 {{ content }}
 </div>
+<div class="previous-wrapper">
+	<a href="{{ page.previous.url }}"> <small><< {{page.previous.title}}</small></a>
+	<a href="{{page.next.url}}"> <small>{{page.next.title}} >></small></a>
+</div>
+
+
