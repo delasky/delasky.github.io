@@ -7,7 +7,7 @@ layout: default
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a class="post-title" href="{{ post.url }}">{{ post.title }}</a><br>
       	<div class="embedded-post row">
-      		<div class="post-wrapper small-offset-1 columns">
+      		<div class="post-wrapper columns">
       			{{post.content}}
       		</div>
      	 	</div>
