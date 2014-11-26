@@ -1,0 +1,25 @@
+.resume h1 {
+  font-size: 200%
+}
+
+.resume h2 {
+  font-size: 70%;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.resume h3 {
+  font-size: 125%;
+}
+
+.resume h4 {
+  font-size: 110%;
+}
+
+.resume h5 {
+  font-size: 115%;
+}
+
+.resume h6 {
+  font-size: 110%;
+}

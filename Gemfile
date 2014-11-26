@@ -1,0 +1,3 @@
+source 'http://www.rubygems.org'
+
+gem 'jekyll', '~> 2.5.1'  
